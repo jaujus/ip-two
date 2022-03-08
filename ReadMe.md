@@ -15,5 +15,5 @@ For this week's Independent Project, I am required to build a web application th
 https://github.com/jaujus/ip-two
 ### License
 *This project is free for editing*
-Copyright (c) 2022
-**oscar@xodusdigitals.com**
+Copyright (c) 2022 for
+*oscar@xodusdigitals.com*
