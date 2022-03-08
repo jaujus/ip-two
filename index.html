@@ -16,7 +16,7 @@
                 <a href="https://yen.com.gh/115080-akan-names-meanings.html" target="_blank" ?> Akan naming tradition</a> ?
              
                 <ul>
-                <em>Male Names</em>
+                <b>Male Names</b>
                 <li>Sunday: Kwasi</li> 
                 <li>Monday: Kwadwo</li> 
                 <li>Tuesday: Kwabena</li> 
@@ -25,9 +25,9 @@
                 <li>Friday: Kofi</li> 
                 <li>Saturday: Kwame</li> 
              </ul>
-             <br>
+
              <ul>
-                <em>Female Names</em>
+                <b>Female Names</b>
                 <li>Sunday: Akosua</li> 
                 <li>Monday: Adwoa</li> 
                 <li>Tuesday: Abena</li> 
@@ -37,7 +37,7 @@
                 <li>Saturday: Ama</li> 
              </ul>
                 <br> Follow the simple steps below:</p>
-            <form action="">
+            <form class="">
               <!--DoB-->
               <label for="">
                   Day of Birth:
@@ -53,14 +53,23 @@
                   Year of Birth:
                   <input type="text">
               </label>
-              <!--Gender-->
+              <!--Gender. Code to select only one Radio at a time-->
               <p>Gender:</p>
               Male (M)
               <label for="">
-              <input type="text">
+              <input type="radio">
               Female (F)
-              <input type="text">
+              <input type="radio">
               </label>
+              <br>
+              <br>
+              <!--Results-->
+              <input type="submit" id="getName" value="Generate Name">
+              <form onsubmit="">
+                  <input type="submit" class="clear" value="Clear Input">
+              </form>
+
+              
             </form>
 
 
